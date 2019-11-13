@@ -8,6 +8,6 @@ Bir tuşa basınız: g\
 ['r', 't', 'y', 'f', 'g', 'h', 'v', 'b', 'n'] #possible keys
 
 Note that the special keys such as CTRL, ALT, and SHIFT are not included to the layout\
-and also there are only two layouts can be used are TurkishQ and EnglishQ, I plan to use every possible layout in this study.\
+and also there are only two layouts can be used are TurkishQ and EnglishQ, I plan to use every possible layout in this study.
 
 Enjoy it.
