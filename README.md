@@ -1,7 +1,7 @@
 wrongKeypressPrevention is an experimental low-level Python study for 'Prevention Wrong KeyPresses/KeyStrokes' in limited keyboard layouts. 
 
 Example:
-Bir tuşa basınız: g\
+Press any key: g\
 (1, 4) #Current Location on EnglishQ Keyboard\
 9 #Number of possible keys which are near to key pressed\
 [(0, 3), (0, 4), (0, 5), (1, 3), (1, 4), (1, 5), (2, 3), (2, 4), (2, 5)] #Position of possible keys\
