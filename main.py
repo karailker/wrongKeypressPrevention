@@ -1,9 +1,9 @@
 def main():
-    keystroke=str(input("Bir tuşa basınız: "))
+    keystroke=str(input("Press any key: "))
     while(keystroke != '0'):
         print(findPos(keystroke))
         print(possibilities(findPos(keystroke)))
-        keystroke = str(input("Bir tuşa basınız: "))
+        keystroke = str(input("Press any key: "))
 
 class Keyboard:
 
@@ -48,30 +48,6 @@ def possibilities(position):
     keyboard = Keyboard()
 
     print(len(keyboard.layout[i]))
-
-    # if i-1 >= 0 and j-1 > 0:
-    #     pos.append(keyboard.layout[i-1][j-1])
-    #
-    # if i-1 >= 0:
-    #     pos.append(keyboard.layout[i-1][j])
-    #
-    # if i-1 >= 0 and j+1 < len(keyboard.layout[i]):
-    #     pos.append(keyboard.layout[i-1][j+1])
-    #
-    # if j-1 >= 0:
-    #     pos.append(keyboard.layout[i][j-1])
-    #
-    # if i+1 < len(keyboard.layout) and j-1 >= 0:
-    #     pos.append(keyboard.layout[i+1][j-1])
-    #
-    # if i+1 < len(keyboard.layout):
-    #     pos.append(keyboard.layout[i+1][j])
-    #
-    # if j+1 < len(keyboard.layout[i]):
-    #     pos.append(keyboard.layout[i][j+1])
-    #
-    # if i+1 < len(keyboard.layout) and j+1 < len(keyboard.layout[i]):
-    #     pos.append(keyboard.layout[i+1][j+1])
 
     x=i-1
     while(x<i+2):
